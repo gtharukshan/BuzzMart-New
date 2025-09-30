@@ -1,0 +1,182 @@
+[
+  {
+    "name": "beyou. Skincare Collection - Peptides Moisturizer",
+    "price": 25.50,
+    "description": "Hydrating peptide moisturizer with a clean, pink-themed design.",
+    "ratings": 4.2,
+    "images": [
+      { "image": "https://i.imgur.com/wKdxGqn.jpeg" }
+    ],
+    "category": "Skincare",
+    "seller": "Amazon",
+    "stock": 15
+  },
+  {
+    "name": "beyou. Skincare Collection - Vitamin E Serum",
+    "price": 18.75,
+    "description": "Brightening Vitamin E serum for dull and tired skin.",
+    "ratings": 4.4,
+    "images": [
+      { "image": "https://i.imgur.com/Y3rXbo4.jpeg" }
+    ],
+    "category": "Skincare",
+    "seller": "Amazon",
+    "stock": 20
+  },
+  {
+    "name": "beyou. Skincare Collection - Vitamin C Face Cleanser",
+    "price": 14.30,
+    "description": "Gentle Vitamin C cleanser that refreshes and brightens skin.",
+    "ratings": 4.1,
+    "images": [
+      { "image": "https://i.imgur.com/K2P5nTT.jpeg" }
+    ],
+    "category": "Skincare",
+    "seller": "Amazon",
+    "stock": 18
+  },
+  {
+    "name": "beyou. Skincare Collection - Caffeine Eye Cream",
+    "price": 19.90,
+    "description": "Caffeine-infused cream to reduce puffiness and brighten eyes.",
+    "ratings": 4.3,
+    "images": [
+      { "image": "https://i.imgur.com/Y3rXbo4.jpeg" }
+    ],
+    "category": "Skincare",
+    "seller": "Amazon",
+    "stock": 12
+  },
+  {
+    "name": "Erbology Organic Hemp Seed Oil",
+    "price": 22.40,
+    "description": "Cold-pressed hemp seed oil for natural body balance.",
+    "ratings": 4.5,
+    "images": [
+      { "image": "https://i.imgur.com/HqtP9Ss.jpeg" }
+    ],
+    "category": "Wellness",
+    "seller": "Erbology",
+    "stock": 25
+  },
+  {
+    "name": "Erbology Organic Cumin Powder",
+    "price": 9.60,
+    "description": "Pure organic cumin powder to support digestion and flavor.",
+    "ratings": 4.0,
+    "images": [
+      { "image": "https://i.imgur.com/qQpljr0.jpeg" }
+    ],
+    "category": "Wellness",
+    "seller": "Erbology",
+    "stock": 30
+  },
+  {
+    "name": "Erbology Organic Activated Charcoal",
+    "price": 15.25,
+    "description": "Detoxifying activated charcoal supplement for cleansing.",
+    "ratings": 4.3,
+    "images": [
+      { "image": "https://i.imgur.com/R4T9gdf.jpeg" }
+    ],
+    "category": "Wellness",
+    "seller": "Erbology",
+    "stock": 22
+  },
+  {
+    "name": "Beats Over-Ear Wireless Headphones",
+    "price": 199.99,
+    "description": "Stylish beige headphones with rose gold accents, offering immersive sound and comfort.",
+    "ratings": 4.6,
+    "images": [
+      { "image": "https://i.imgur.com/eRIg1Y4.jpeg" }
+    ],
+    "category": "Electronics",
+    "seller": "BestBuy",
+    "stock": 10
+  },
+  {
+    "name": "Bandicoot Coffee Roasters House Blend",
+    "price": 12.50,
+    "description": "Smooth and comforting artisan coffee blend in sleek white packaging.",
+    "ratings": 4.7,
+    "images": [
+      { "image": "https://i.imgur.com/RMjNrkU.jpeg" }
+    ],
+    "category": "Coffee",
+    "seller": "Bandicoot",
+    "stock": 28
+  },
+  {
+    "name": "Clinique Lip Duo - Gloss & Lipstick",
+    "price": 29.90,
+    "description": "A vibrant pink lip duo with glossy and matte finishes.",
+    "ratings": 4.5,
+    "images": [
+      { "image": "https://i.imgur.com/3NWP8YK.jpeg" }
+    ],
+    "category": "Cosmetics",
+    "seller": "Clinique",
+    "stock": 14
+  },
+  {
+    "name": "Clinique Lip Duo (Updated Version)",
+    "price": 31.00,
+    "description": "Glossy shine and creamy coverage with sleek silver and pink casing.",
+    "ratings": 4.4,
+    "images": [
+      { "image": "blob:https://imgur.com/69d7df1e-c865-4c6c-999a-9aeb04d22cf7" }
+    ],
+    "category": "Cosmetics",
+    "seller": "Clinique",
+    "stock": 16
+  },
+  {
+    "name": "Gold-Framed Round Sunglasses",
+    "price": 39.95,
+    "description": "Timeless round sunglasses with gold frames and green tint.",
+    "ratings": 4.2,
+    "images": [
+      { "image": "https://i.imgur.com/RGwG0Za.jpeg" }
+    ],
+    "category": "Accessories",
+    "seller": "Ebay",
+    "stock": 19
+  },
+  {
+    "name": "Pearlessence Aloe + Rosewater Hydrating Face Mist",
+    "price": 13.40,
+    "description": "Refreshing mist infused with aloe and rosewater for dewy skin.",
+    "ratings": 4.3,
+    "images": [
+      { "image": "https://i.imgur.com/HqtP9Ss.jpeg" }
+    ],
+    "category": "Skincare",
+    "seller": "Target",
+    "stock": 24
+  },
+  {
+    "name": "Black Smartwatch with Abstract Display",
+    "price": 89.99,
+    "description": "Unbranded smartwatch with golden flame-style artistic watch face.",
+    "ratings": 4.1,
+    "images": [
+      { "image": "https://i.imgur.com/SmozPAQ.jpeg" }
+    ],
+    "category": "Electronics",
+    "seller": "AliExpress",
+    "stock": 11
+  },
+  {
+    "name": "Apple iPhone with Red Gradient Wallpaper",
+    "price": 699.00,
+    "description": "Apple iPhone with popular apps and bold red gradient wallpaper.",
+    "ratings": 4.8,
+    "images": [
+      { "image": "https://i.imgur.com/wm6RRbf.jpeg" }
+    ],
+    "category": "Electronics",
+    "seller": "Apple",
+    "stock": 7
+  }
+]

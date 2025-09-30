@@ -1,0 +1,401 @@
+/* ---------------- Base Theme: White & Black ---------------- */
+html,
+body {
+  font-family: 'Amazon Ember', sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #ffffff; /* White background */
+  color: #000000; /* Black text */
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.4;
+  color: #000000;
+}
+
+/* Scroll Bar */
+::-webkit-scrollbar-track {
+  background-color: #e0e0e0;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #e0e0e0;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+/* ---------------- Navbar ---------------- */
+nav {
+  padding: 1rem 1rem;
+}
+
+.navbar-white-black {
+  background-color: #ffffff;
+  border-bottom: 2px solid #000000;
+}
+
+.text-black {
+  color: #000000 !important;
+}
+.text-black:hover {
+  color: #555555 !important;
+}
+
+.badge.bg-black {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Buttons */
+#search_btn,
+#login_btn,
+#view_btn,
+.login-btn,
+.update-btn,
+#checkout_btn,
+.review-btn,
+#view_order_details,
+#edit_profile,
+#cart_btn,
+#review_btn {
+  background-color: #000000;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-family: calibri, sans-serif;
+}
+
+#view_btn:hover,
+#login_btn:hover,
+.login-btn:hover,
+.update-btn:hover {
+  opacity: 0.9;
+}
+
+/* ---------------- Home Page ---------------- */
+#products_heading {
+  margin-top: 1.8rem;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.card {
+  border: 1px solid #d1d1d1;
+  background-color: #e8f9fd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card-title a {
+  color: #000000;
+}
+
+.card-title a:hover {
+  color: #555555;
+  text-decoration: none;
+}
+
+.card-text {
+  font-size: 1.4rem;
+  color: #000000;
+}
+
+/* Ratings */
+.ratings {
+  font-size: 1.2rem;
+  color: #ffc107;
+}
+
+/* ---------------- Footer ---------------- */
+.custom-footer {
+  margin-top: 5rem;
+  background-color: #f0f0f0;
+  color: #000000;
+  padding: 2rem 1rem;
+  font-family: 'Amazon Ember', sans-serif;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-box h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #ff1e00; /* Brightly Orange headings */
+}
+
+.footer-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #000000;
+}
+
+.footer-box ul li {
+  margin-bottom: 0.6rem;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.footer-box ul li:hover {
+  color: #59ce8f; /* Highlight Green on hover */
+}
+
+.footer-box p {
+  color: #555555;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo h1 {
+  font-size: 1.5rem;
+  color: #ff1e00; /* Brightly Orange logo */
+}
+
+.logo ion-icon {
+  font-size: 1.8rem;
+  color: #59ce8f; /* Highlight Green icon */
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ff1e00;
+  font-size: 0.9rem;
+  color: #000000;
+}
+
+/* ---------------- Product Details ---------------- */
+#product_price {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000000;
+}
+
+#stock_status {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.redColor {
+  color: red;
+}
+
+.greenColor {
+  color: green;
+}
+
+/* ---------------- Login Page ---------------- */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  background-color: #ffffff;
+}
+
+.login-box {
+  background-color: #f0f0f0;
+  padding: 2.5rem 2rem;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.input-group {
+  margin-bottom: 1.2rem;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.4rem;
+  color: #000000;
+  font-weight: 500;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.input-group input:focus {
+  border-color: #555555;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 0.8rem;
+  font-weight: bold;
+}
+
+.signup-text {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.signup-text a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.signup-text a:hover {
+  color: #555555;
+  text-decoration: underline;
+}
+
+/* ---------------- About Page ---------------- */
+.aboutus-page h1,
+.aboutus-page h2,
+.aboutus-page h3 {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Amazon Ember', sans-serif;
+}
+
+/* Hero Section */
+.aboutus-hero {
+  background-color: #e8f9fd;
+  padding: 40px 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.aboutus-hero h1 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+  color: #000000;
+}
+
+.aboutus-hero .lead {
+  font-size: 1.2rem;
+  color: #555555;
+  margin-bottom: 20px;
+}
+
+/* Hero Buttons */
+.aboutus-buttons button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-family: 'Amazon Ember', sans-serif;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.aboutus-buttons button#view_btn {
+  background-color: #ff1e00;
+  color: #fff;
+}
+
+.aboutus-buttons button#login_btn {
+  background-color: #59ce8f;
+  color: #fff;
+}
+
+.aboutus-buttons button:hover {
+  opacity: 0.9;
+}
+
+/* Cards for Products, Mission, Vision, Team */
+.aboutus-page .card {
+  background-color: #ffffff;
+  border: 1px solid #d1d1d1;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.aboutus-page .card-title {
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.aboutus-page .card-text {
+  font-size: 1rem;
+  color: #555555;
+  text-align: center;
+}
+
+/* Products Images */
+.aboutus-products .card-img-top {
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Team Avatars */
+.team-member .avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #ddd;
+  margin: 0 auto 10px auto;
+}
+
+/* CTA Card */
+.aboutus-cta .card {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #e8f9fd;
+  border-radius: 10px;
+  text-align: center;
+  padding: 25px 20px;
+}
+
+.aboutus-cta button#view_btn {
+  background-color: #ff1e00;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+/* Responsive Adjustments */
+@media(max-width:768px) {
+  .aboutus-hero {
+    padding: 20px 10px;
+  }
+  .aboutus-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
