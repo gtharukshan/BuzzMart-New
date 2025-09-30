@@ -7,9 +7,8 @@ on:
     branches: [main]
 
 jobs:
-  build-and-test:
+  backend-tests:
     runs-on: ubuntu-latest
-
     services:
       mongo:
         image: mongo:6.0
@@ -20,11 +19,9 @@ jobs:
           --health-interval=10s
           --health-timeout=5s
           --health-retries=5
-
     strategy:
       matrix:
         node-version: [18.x]
-
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
@@ -41,6 +38,21 @@ jobs:
       - name: Run Backend Tests
         working-directory: ./backend
         run: npm test
+
+  frontend-tests:
+    needs: backend-tests   # run only after backend passes
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18.x]
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
 
       - name: Install Frontend Dependencies
         working-directory: ./frontend
