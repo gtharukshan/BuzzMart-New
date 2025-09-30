@@ -4,8 +4,6 @@
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.9.0",
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -18,7 +16,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --watchAll=false",
     "eject": "react-scripts eject",
     "test:ui": "mocha tests/ui/*.test.js --exit --timeout 40000"
   },
@@ -41,6 +39,8 @@
     ]
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^6.8.0",
+    "@testing-library/react": "^16.3.0",
     "chai": "^6.2.0",
     "mocha": "^11.7.2",
     "selenium-webdriver": "^4.35.0"
