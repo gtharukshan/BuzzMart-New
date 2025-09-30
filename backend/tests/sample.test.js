@@ -1,7 +1,10 @@
+// backend/tests/sample.test.js
 const request = require("supertest");
 const express = require("express");
 
 const app = express();
+
+// Example GET endpoint
 app.get("/hello", (req, res) => {
   res.status(200).json({ message: "Hello World" });
 });

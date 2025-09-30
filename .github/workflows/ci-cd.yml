@@ -15,39 +15,37 @@ jobs:
         image: mongo:6.0
         ports:
           - 27017:27017
-        options: --bind_ip_all
+        options: >-
+          --health-cmd="mongosh --eval 'db.adminCommand(\"ping\")'"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=5
 
     strategy:
       matrix:
         node-version: [18.x]
 
     steps:
-      # 1. Checkout repo
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      # 2. Setup Node
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
 
-      # 3. Install backend dependencies
       - name: Install Backend Dependencies
         working-directory: ./backend
-        run: npm install
+        run: npm ci
 
-      # 4. Run backend tests
       - name: Run Backend Tests
         working-directory: ./backend
         run: npm test
 
-      # 5. Install frontend dependencies
       - name: Install Frontend Dependencies
         working-directory: ./frontend
-        run: npm install
+        run: npm ci
 
-      # 6. Run frontend tests
       - name: Run Frontend Tests
         working-directory: ./frontend
         run: npm test -- --watchAll=false
